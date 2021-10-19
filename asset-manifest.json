@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MarinaLugovskaya.github.io/goit-react-hw-07-phonebook/static/css/main.8ab405eb.chunk.css",
+    "main.js": "/MarinaLugovskaya.github.io/goit-react-hw-07-phonebook/static/js/main.34e75c10.chunk.js",
+    "main.js.map": "/MarinaLugovskaya.github.io/goit-react-hw-07-phonebook/static/js/main.34e75c10.chunk.js.map",
+    "runtime-main.js": "/MarinaLugovskaya.github.io/goit-react-hw-07-phonebook/static/js/runtime-main.6ff43090.js",
+    "runtime-main.js.map": "/MarinaLugovskaya.github.io/goit-react-hw-07-phonebook/static/js/runtime-main.6ff43090.js.map",
+    "static/js/2.ce5b4e05.chunk.js": "/MarinaLugovskaya.github.io/goit-react-hw-07-phonebook/static/js/2.ce5b4e05.chunk.js",
+    "static/js/2.ce5b4e05.chunk.js.map": "/MarinaLugovskaya.github.io/goit-react-hw-07-phonebook/static/js/2.ce5b4e05.chunk.js.map",
+    "index.html": "/MarinaLugovskaya.github.io/goit-react-hw-07-phonebook/index.html",
+    "static/css/main.8ab405eb.chunk.css.map": "/MarinaLugovskaya.github.io/goit-react-hw-07-phonebook/static/css/main.8ab405eb.chunk.css.map",
+    "static/js/2.ce5b4e05.chunk.js.LICENSE.txt": "/MarinaLugovskaya.github.io/goit-react-hw-07-phonebook/static/js/2.ce5b4e05.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ff43090.js",
+    "static/js/2.ce5b4e05.chunk.js",
+    "static/css/main.8ab405eb.chunk.css",
+    "static/js/main.34e75c10.chunk.js"
+  ]
+}
