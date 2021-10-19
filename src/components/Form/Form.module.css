@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css');
+
+* {
+  font-family: 'Open Sans', 'sans-serif', 'FontAwesome';
+}
+body {
+  background: rgb(52, 56, 61);
+}
+h1 {
+  color: rgb(255, 255, 255);
+  margin: 20px auto 0;
+  width: 200px;
+  text-align: center;
+}
+/* .wrapper{
+	display: flex;
+	margin-top: 50px;
+justify-content:center;
+} */
+
+/* === Sign in Form === */
+.signin {
+  display: block;
+  margin-left: 500px;
+  margin-right: 500px;
+  height: 150px;
+  width: 300px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.signin::before {
+  display: block;
+  position: relative;
+  height: 2px;
+  width: 400px;
+  background: rgb(52, 56, 61);
+  content: '';
+  top: 65px;
+  margin-left: 20px;
+  z-index: 1;
+}
+.signinInput:first-of-type {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.signinInput:last-of-type {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.signinInput,
+.signinButton {
+  background: rgb(28, 30, 33);
+  box-shadow: inset -100px -100px 0 rgb(28, 30, 33); /*Prevent yellow autofill color*/
+  color: rgb(52, 56, 61);
+}
+.signinInput {
+  /* position: relative; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 430px;
+  height: 60px;
+  border: 0;
+  outline: 0;
+  top: -2px;
+  padding: 0 0 0 20px;
+  font-weight: 700;
+}
+
+.signinIinput:focus {
+  color: rgb(255, 255, 255);
+}
+.signinButton {
+  display: block;
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  color: rgb(52, 56, 61);
+  border-radius: 50px;
+  outline: 0;
+  z-index: 2;
+  top: 13px;
+  right: -210px;
+  border: 10px solid rgb(52, 56, 61);
+  font-size: 20px;
+  text-indent: 0px;
+  padding-left: 9px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+.signinButton:hover {
+  color: rgb(0, 126, 165);
+  text-shadow: 0 0 10px rgb(0, 126, 165);
+  cursor: pointer;
+}
+.signinText {
+  display: block;
+  color: rgb(79, 85, 97);
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 5px 0 0 0;
+}
+.signinText > a {
+  color: rgb(111, 119, 135);
+  text-decoration: none;
+}
+.signinText > a:hover {
+  border-bottom: 1px solid;
+}
+
+.title {
+  font-size: 40px;
+  color: rgb(79, 85, 97);
+}
